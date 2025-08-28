@@ -4,6 +4,8 @@ import type { UserProfile } from '@/lib/types';
 import React from 'react';
 import { AppLayoutClient } from '@/components/layout/app-layout-client';
 
+export const dynamic = 'force-dynamic';
+
 export default async function AppLayout({
   children,
 }: {
